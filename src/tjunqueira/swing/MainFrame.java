@@ -29,7 +29,7 @@ public class MainFrame extends JFrame{
 	
 	private void createUI() {
 		
-		this.setSize(500,400);
+		this.setSize(1000,400);
 		// Close application when close button is pressed.
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Set frame visible.
@@ -45,13 +45,15 @@ public class MainFrame extends JFrame{
 		detailspanel = new DetailsPanel();
 		detailspanel.addDetailListener(e -> onAddTextClick(e));
 		
-		formPanel = new FormPanel(true);
+		//formPanel = new FormPanel(true);
+		
+		CheckSumsPanel ck = new CheckSumsPanel(true);
 		
 		// Add to content pane.
 		Container c = getContentPane();
 					
 		//c.add(textArea, BorderLayout.CENTER);
-		c.add(formPanel, BorderLayout.CENTER);
+		c.add(ck, BorderLayout.CENTER);
 		c.add(detailspanel, BorderLayout.WEST);
 		
 	}

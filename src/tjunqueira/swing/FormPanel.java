@@ -70,7 +70,7 @@ public class FormPanel extends JPanel {
 		nameTextField.setUI(new HintTextFieldUI("Type your company name", true));
 
 		
-		JLabel streetLabel = new JLabel("Street*:");
+		JLabel streetLabel = new JLabel("Street:");
 		GridBagConstraints gbc_streetLabel = new GridBagConstraints();
 		gbc_streetLabel.anchor = GridBagConstraints.EAST;
 		gbc_streetLabel.insets = new Insets(0, 0, 5, 5);
@@ -106,7 +106,7 @@ public class FormPanel extends JPanel {
 		zipTextField.setColumns(10);
 		zipTextField.setUI(new HintTextFieldUI("Optinal", true));
 		
-		JLabel cityLabel = new JLabel("City:");
+		JLabel cityLabel = new JLabel("City*:");
 		GridBagConstraints gbc_cityLabel = new GridBagConstraints();
 		gbc_cityLabel.anchor = GridBagConstraints.EAST;
 		gbc_cityLabel.insets = new Insets(0, 0, 5, 5);
