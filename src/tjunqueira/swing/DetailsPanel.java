@@ -18,6 +18,8 @@ import javax.swing.JProgressBar;
 import javax.swing.JTextField;
 import javax.swing.event.EventListenerList;
 
+import Util.ParallelJobs;
+
 public class DetailsPanel extends JPanel {
 	
 	/**

@@ -1,4 +1,4 @@
-package tjunqueira.swing;
+package Util;
 
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
